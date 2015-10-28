@@ -1,0 +1,833 @@
+/****** DEFINICION DE FUENTES ******/
+@font-face
+{
+	font-family:Agenda;
+	src:url('Agenda.eot');
+}
+@font-face
+{
+	font-family:Agenda;
+	src:url('Agenda.ttf');
+}
+/****** DEFINICION DE FUENTES ******/
+
+body
+{
+	margin:0;
+	padding:0;
+}
+h1
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:25px;
+	font-weight:normal;
+	margin:10px 0 15px;
+	padding:4px 4px 4px 40px;
+	color:#484747;
+	background:url(../imagenes/senal.png) no-repeat 4px 6px #FFF;
+	border:1px #cccccc solid;
+}
+h2
+{
+	font-family:"Franklin Gothic Demi Cond";
+	font-size:17px;
+	color:#4a4a4a;
+	border-bottom:1px #4a4a4a solid;
+}
+h3
+{
+	font-family:"Franklin Gothic Demi Cond";
+	font-size:17px;
+	color:#4a4a4a;
+}
+label
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	display:block;
+	margin-left:20px;
+}
+small
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-style:italic;
+	margin:4px 0;
+}
+#header
+{
+	font-family:Agenda, sans-serif;
+}
+#header div#divHeader
+{
+	margin:0;
+	padding:10px 0;
+	border-bottom:1px #dedede solid;
+}
+#header div#divHeader div#divEnvio
+{
+	width:auto;
+	float:left;
+	margin:0 10px 0 0;
+}
+#header div#divHeader a
+{
+	display:block;
+	width:auto;
+	float:left;
+	color:#000000;
+	text-decoration:none;
+	margin:0 0 0 15px;
+}
+#header div#divHeader div#divTelefono
+{
+	width:auto;
+	float:left;
+	background:url(../imagenes/icono-telefono.png) no-repeat 2px 2px;
+	padding:0 0 0 20px;
+	margin:0 0 0 15px;
+}
+#header div#divHeader a#aMicuenta
+{
+	float:right;
+	background:url(../imagenes/icono-cuenta.png) no-repeat 2px 2px;
+	padding:0 0 0 20px;
+}
+#logo
+{
+	width: 200px;
+	float: left;
+	margin-top: 20px;
+}
+#logo img
+{
+	width:100%;
+}
+#header a.aBox
+{
+	width:25px;
+	height:25px;
+	float:left;
+	border:1px #999999 solid;
+	position:relative;
+	margin:6px;
+}
+#datosHeader
+{
+	width:800px;
+	float:right;
+}
+#facebookHeader
+{
+	width:35px;
+	float:right;
+	margin-top:5px;
+}
+#datosCliente
+{
+	width:660px;
+	float:left;
+	text-align:right;
+	margin-top:50px;
+}
+#divCarrito
+{
+	width:125px;
+	float:right;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+	background:url(../imagenes/bg-pro.png) no-repeat bottom;
+	height:65px;
+	margin-top:20px;
+}
+#divCarrito p
+{
+	color:#ff0000;
+	margin-top:10px;
+}
+#nav
+{
+	background:url(../imagenes/bg-mennu.jpg) repeat-x;
+}
+#nav ul
+{
+	margin:0;
+	padding:0;
+	list-style:none;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+}
+#nav ul li
+{
+	float:left;
+}
+#nav a
+{
+	display:block;
+	color:#FFF;
+	text-transform:uppercase;
+	text-decoration:none;
+	padding:13px 21px;
+}
+#nav a:hover
+{
+	color:#999;
+	background:url(../imagenes/bgMenuOver.png);
+}
+#slide
+{
+	width:725px;
+	float:left;
+	margin-top:5px;
+}
+.main
+{
+	width:1000px;
+	margin:0 auto;
+}
+#footer
+{
+	background:url(../imagenes/bg-footer.png);
+	height:56px;
+	font-family:Verdana, Geneva, sans-serif;
+    font-size:13px;
+	text-transform:uppercase;
+	color:#484747;
+    padding:20px 0 0 0;
+}
+#facebookFooter
+{
+	width:33px;
+	float:right;
+    margin:-5px 0 0 0;
+}
+.clear
+{
+	clear:both;
+}
+.divProducto
+{
+	margin: 5px;
+	background: #FFF;
+	border: 1px solid #dbdbdb;
+	padding:6px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 3px #eee;
+	-moz-box-shadow: 0px 0px 3px #eee;
+	box-shadow: 0px 0px 3px #eee;
+	width:225px;
+	height:289px;
+	float:left;
+}
+.divImagen
+{
+	margin-bottom:5px;
+	text-align:center;
+	min-height:130px;
+}
+.divLabel
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	color:#484747;
+	font-weight:bold;
+}
+.divDatosDetalle
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	margin-bottom:5px;
+}
+.btnAgregar
+{
+	float:left;
+	margin:10px 0 0 0;
+}
+.btnVerMas
+{
+	float:right;
+	margin:10px 0 0 0;
+}
+.imgProducto
+{
+	background:#FFF;
+	border-right:1px solid #dbdbdb;
+	padding:6px;
+	width:300px;
+	height:300px;
+	float:left;
+}
+.datosProducto
+{
+	width:674px;
+	float:right;
+	padding:6px;
+	background:#FFF;
+}
+#divRecuperar
+{
+	position:absolute;
+	top:470px;
+	left:50%;
+	margin-left:-250px;
+	width:500px;
+	border:1px #CCC solid;
+	background:#FFF;
+	padding:15px 10px 10px 10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-align:center;
+	display:none;
+}
+#divRecuperar label
+{
+	display:block;
+	font-weight:bold;
+	text-align:left;
+}
+#divRecuperar input[type="text"]
+{
+	width:435px;
+	padding:5px;
+	margin:10px 0;
+}
+.divCerrar
+{
+	width:15px;
+	height:15px;
+	background:url(../imagenes/remove.gif) no-repeat;
+	cursor:pointer;
+	float:right;
+	margin:-15px -5px 0 0;
+}
+#content
+{
+	padding:10px;
+	background:#FFF;
+}
+#content input[type="text"], #content input[type="password"], #content textarea, #content select
+{
+	margin:10px auto 10px 20px;
+	padding:7px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#666;
+	border:1px #bbb4b4 solid;
+	width:80%;
+}
+#captcha
+{
+	width:80%;
+	margin:5px auto 5px 20px;
+	padding:5px;
+	background:#bbb4b4;
+	text-align:center;
+}
+.divArticulo
+{
+	width:500px;
+	float:left;
+}
+.divCantidad
+{
+	width:100px;
+	float:left;
+}
+.divPrecio
+{
+	width:200px;
+	float:left;
+	text-align:right;
+}
+.titulo
+{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	color:#999;
+	padding:5px 0;
+	border-bottom:1px #999 solid;
+	text-align:center;
+	background:#edeeee;
+}
+.filaCarrito
+{
+	width:1000px;
+	border-bottom:1px #999 solid;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:16px;
+	color:#666;
+	padding:10px 0;
+	background:#FFF;
+}
+.filaCarrito:hover
+{
+	background:#FFC;
+}
+.imgCarrito
+{
+	width:100px;
+	float:left;
+	text-align:center;
+}
+.datosCarrito
+{
+	width:400px;
+	float:right;
+}
+.totales
+{
+	width:300px;
+	float:right;
+	background:#ccc;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:16px;
+	margin:10px 0;
+	padding:0 10px;
+	
+}
+.labelTotal
+{
+	width:150px;
+	float:left;
+	text-align:right;
+	border-bottom:2px #FFF solid;
+	padding:4px 0;
+	font-weight:bold;
+}
+.cantidadTotal
+{
+	width:150px;
+	float:right;
+	text-align:right;
+	border-bottom:2px #FFF solid;
+	padding:4px 0;
+	font-weight:bold;
+}
+.divEliminar
+{
+	width:15px;
+	height:15px;
+	background:url(../imagenes/remove.gif) no-repeat;
+	float:right;
+	margin:0 7px;
+}
+.divEliminar:hover
+{
+	cursor:pointer;
+}
+.boton
+{
+    height: 28px;
+    line-height: 26px;
+    padding: 0px 15px;
+    border-radius: 2px 2px 2px 2px;
+    background-color: rgb(49, 118, 187);
+    background-image: -moz-linear-gradient(rgb(49, 118, 187), rgb(40, 96, 152));
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.15) inset;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+}
+.boton:hover
+{
+    background-color: rgb(60, 128, 196);
+    background-image: -moz-linear-gradient(rgb(60, 128, 196), rgb(50, 106, 162));
+}
+.divBoton
+{
+	text-align:right;
+	margin:20px 50px 20px 0;
+}
+.alertaMsg
+{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	padding:15px 15px 15px 30px;
+	background:url(../imagenes/alertaIcon.png) no-repeat 10px 14px #f6f692;
+	width:90%;
+	margin:20px auto 0 auto;
+}
+.divValidacion
+{
+	width:25px;
+	float:right;
+	margin:12px 65px 10px 0;
+}
+#datosCliente
+{
+	float:left;
+}
+#datosCliente ul
+{
+	margin:0;
+	padding:0;
+	list-style:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+#datosCliente ul li
+{
+	float:left;
+}
+#datosCliente ul li a
+{
+	width:60px;
+	min-height:25px;
+	display:block;
+	padding:2px 3px;
+	border-right:1px #4e99b0 solid;
+	text-align:center;
+	text-decoration:none;
+	color:#76b1c3;
+}
+#datosCliente ul li a:hover
+{
+	background:#4e99b0;
+	color:#FFF;
+}
+li.datos
+{
+	padding:2px 10px 2px 5px;
+	border-right:1px #4e99b0 solid;
+	text-align:center;
+}
+.boxPedido
+{
+	width:80%;
+	margin:10px auto;
+	background:#f4f2f2;
+	padding:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+.boxPedido ul
+{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.boxPedido ul li
+{
+	margin:3px;
+	padding:0;
+}
+.opcion
+{
+	width:90%;
+	margin:3px auto;
+	background:#CCC;
+	padding:5px;
+	color:#999;
+}
+.selected
+{
+	color:#000;
+}
+.divDatos
+{
+	width:80%;
+	float:left;
+}
+.divBotones
+{
+	width:20%;
+	float:left;
+}
+.divBotones ul
+{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.divBotones ul li
+{
+	padding:4px;
+	text-align:center;
+	margin:0;
+	margin-bottom:2px;
+	color:#000;
+}
+.divBotones ul li:hover
+{
+	background:#000;
+	color:#FFF;
+	cursor:pointer;
+}
+.confirmacion
+{
+	width:90%;
+	margin:5px auto;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-align:center;
+}
+.detalles
+{
+	margin:5px 0;
+	background:#DBDBDB;
+	text-align:left;
+}
+.tituloDetalles
+{
+	font-size:14px;
+	font-weight:bold;
+	text-align:center;
+	margin:5px 0;
+}
+.divDetalle
+{
+	width:49%;
+	float:left;
+	padding:3px;
+	border-bottom:2px #FFF solid;
+}
+.formPago
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-align:center;
+}
+.tabla
+{
+	border-top:1px #dddddd solid;
+	border-right:1px #dddddd solid;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+.tabla td
+{
+	border-left:1px #dddddd solid;
+	border-bottom:1px #dddddd solid;
+	padding:8px;
+}
+.fila:hover
+{
+	background:#e7efef;
+}
+.encabezado
+{
+	background:#efefef;
+	font-weight:bold;
+}
+.divForm
+{
+	width:400px;
+	border:1px #CCC solid;
+	padding:15px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin:5px auto;
+}
+.divForm input[type="text"], .divForm input[type="password"]
+{
+	width:100%;
+	margin:5px 0 10px 0;
+}
+.divForm label
+{
+	font-weight:bold;
+}
+.divForm .nota
+{
+	text-align:center;
+	margin:5px 0;
+}
+.divForm .nota a
+{
+	color:#000;
+	text-decoration:underline;
+	cursor:pointer;
+}
+#firma
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:10px;
+	padding:10px 0;
+	text-align:right;
+}
+#firma a
+{
+	text-decoration:none;
+	color:#000000;
+}
+#firma a:hover
+{
+	color:#999;
+}
+#promocion
+{
+	margin: 5px;
+	background: #FFF;
+	border: 1px solid #dbdbdb;
+	padding: 6px 8px 0 8px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 3px #eee;
+	-moz-box-shadow: 0px 0px 3px #eee;
+	box-shadow: 0px 0px 3px #eee;
+	width:240px;
+	height:348px;
+	float:right;
+}
+.btnVerMasPromo a
+{
+	display:block;
+	padding:8px;
+	text-decoration:none;
+	text-align:center;
+	margin:20px 0 0 0;
+	height: 28px;
+    line-height: 26px;
+    padding: 0px 15px;
+    border-radius: 2px 2px 2px 2px;
+    background-color: rgb(49, 118, 187);
+    background-image: -moz-linear-gradient(rgb(49, 118, 187), rgb(40, 96, 152));
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.15) inset;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+}
+.btnVerMasPromo a:hover
+{
+    background-color: rgb(60, 128, 196);
+    background-image: -moz-linear-gradient(rgb(60, 128, 196), rgb(50, 106, 162));
+}
+#formaUbicacion
+{
+	width:475px;
+	float:left;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#424242;
+}
+#formaUbicacion h1
+{
+	font-size:18px;
+	color:#4999de;
+	background:url(../imagenes/bgH1Ubicacion.gif) no-repeat 2px 2px;
+	border:none;
+	margin:0 0 15px 0;
+	padding:2px 0 4px 25px;
+}
+#formaTelefono
+{
+	font-size:16px;
+	color:#262626;
+	padding:5px 0 3px 25px;
+	background:url(../imagenes/bgDivTelefono.gif) no-repeat 2px 1px;
+	margin:6px 0;
+}
+#formaContacto
+{
+	width:475px;
+	float:right;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	color:#424242;
+}
+#formaContacto h1
+{
+	font-size:18px;
+	color:#4999de;
+	background:url(../imagenes/bgH1Contacto.gif) no-repeat 2px 3px;
+	border:none;
+	margin:0 0 15px 0;
+	padding:2px 0 4px 40px;
+}
+.paginacion
+{
+	margin:10px 0;
+	padding:0;
+	list-style:none;
+}
+.paginacion li
+{
+	float:left;
+	margin:0 4px;
+	padding:0;
+}
+.paginacion li a
+{
+	width:25px;
+	display:block;
+	padding:5px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	text-decoration:none;
+	background:#ddeff9;
+	text-align:center;
+	color:#333;
+}
+.paginacion li a:hover
+{
+	background:#0c3f5a;
+	color:#FFF;
+}
+.paginacion li a.active
+{
+	background:#0c3f5a;
+	color:#FFF;
+}
+#msjFelicidades
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	text-align:center;
+}
+#msjFelicidades ul
+{
+	margin:10px 305px;
+	padding:0;
+	list-style:none;
+}
+#msjFelicidades ul li
+{
+	float:left;
+	margin:0 3px;
+}
+#msjFelicidades a
+{
+	font-size:14px;
+	display:block;
+	padding:6px;
+	color:#000;
+	text-decoration:none;
+	border:1px #CCCCCC solid;
+}
+#msjFelicidades a:hover
+{
+	background:#CCC;
+	border:1px #FFFFFF solid;
+}
+.listaPagos li
+{
+	height:25px;
+}
+li.payPal
+{
+	background:url(../imagenes/paypa_logo.png) no-repeat 182px 3px;
+}
+#divMayorista
+{
+	width:800px;
+	height:229px;
+	padding:0;
+	margin:20px auto;
+	background:url(../imagenes/casilla.jpg) center center no-repeat;
+}
