@@ -58,6 +58,7 @@ small
 #header
 {
 	font-family:Agenda, sans-serif;
+	margin-bottom: 10px;
 }
 #header div#divHeader
 {
@@ -96,7 +97,7 @@ small
 }
 #logo
 {
-	width: 140px;
+	width: 110px;
 	float: left;
 	margin-top: 20px;
 }
@@ -106,12 +107,23 @@ small
 }
 #header a.aBox
 {
-	width:25px;
-	height:25px;
+	width:30px;
+	height:30px;
 	float:left;
-	border:1px #999999 solid;
+	border:1px #dedede solid;
 	position:relative;
-	margin:6px;
+	margin-left:6px;
+	margin-top: 1px;
+}
+
+#aCarrito{
+	background: url(../imagenes/carrito.png) no-repeat;
+}
+#aTwitter{
+	background: url(../imagenes/twiter.png) no-repeat;
+}
+#aFacebook{
+	background: url(../imagenes/facebook.png) no-repeat;
 }
 #datosHeader
 {
@@ -141,7 +153,6 @@ small
 	text-align:center;
 	background:url(../imagenes/bg-pro.png) no-repeat bottom;
 	height:65px;
-	margin-top:20px;
 }
 #divCarrito p
 {
@@ -206,9 +217,34 @@ small
 	float:right;
     margin:-5px 0 0 0;
 }
+
+#divBoxesss{
+	float: right;
+	margin-top: 40px;
+}
 #divBuscador{
 	float: left;
+	width: 430px;
 }
+
+#divBuscador input[type="text"] {
+	width: 200px;
+	padding: 8px;
+	border: 1px solid #DEDEDE;
+	float: left;
+}
+
+#bex
+{
+	width:29px;
+	height:29px;
+	float:left;
+	border:1px #dedede solid;
+	margin-top: 2px;
+	margin-left: -1px;
+	background:url(../imagenes/search.png);
+}
+
 .clear
 {
 	clear:both;

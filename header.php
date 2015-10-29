@@ -129,10 +129,11 @@ else
             <div class="clear"></div>
 		</div>
     	<div id="logo"><img src="imagenes/logo-goray.png" /></div>
+    	<div id="divBoxesss">
         <div id="divBuscador">
         	<form method="get" action="">
-            	<input type="text" name="Search" value="Buscar..." />
-                <input type="submit" value="" />
+            	<input type="text" name="Search" placeholder="Buscar..." />
+                <a href="" id="bex"></a>
             </form>
         </div>
 <?php
@@ -152,10 +153,11 @@ if (isset($_SESSION['cartTVAmNet']) and count($_SESSION['cartTVAmNet']) > 0)
         </a>
         <a href="" id="aTwitter" class="aBox"></a>
         <a href="https://www.facebook.com/abcbici" id="aFacebook" class="aBox"></a>
-        <div class="clear"></div>
+        
+    </div>
+    <div class="clear"></div>
 	</div>
 </div>
-<div class="clear"><br></div>
 <div id="nav">
 	<div class="main">
     	<ul>
