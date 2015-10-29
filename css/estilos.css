@@ -96,7 +96,7 @@ small
 }
 #logo
 {
-	width: 200px;
+	width: 140px;
 	float: left;
 	margin-top: 20px;
 }
@@ -150,7 +150,8 @@ small
 }
 #nav
 {
-	background:url(../imagenes/bg-mennu.jpg) repeat-x;
+	/*background:url(../imagenes/bg-mennu.jpg) repeat-x;*/
+	background-color: #FC181F;
 }
 #nav ul
 {
@@ -204,6 +205,9 @@ small
 	width:33px;
 	float:right;
     margin:-5px 0 0 0;
+}
+#divBuscador{
+	float: left;
 }
 .clear
 {

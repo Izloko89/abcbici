@@ -131,7 +131,7 @@ else
     	<div id="logo"><img src="imagenes/logo-goray.png" /></div>
         <div id="divBuscador">
         	<form method="get" action="">
-            	<input type="text" name="Search" />
+            	<input type="text" name="Search" value="Buscar..." />
                 <input type="submit" value="" />
             </form>
         </div>
@@ -155,6 +155,7 @@ if (isset($_SESSION['cartTVAmNet']) and count($_SESSION['cartTVAmNet']) > 0)
         <div class="clear"></div>
 	</div>
 </div>
+<div class="clear"><br></div>
 <div id="nav">
 	<div class="main">
     	<ul>
