@@ -11,7 +11,7 @@
 .nivoSlider {
 	position:relative;
 	width:100%;
-	height:auto;
+	height:630px;
 	overflow: hidden;
 }
 .nivoSlider img {
@@ -99,6 +99,7 @@
 }
 /* Control nav styles (e.g. 1,2,3...) */
 .nivo-controlNav {
+	display: none;
 	text-align:center;
 	padding: 15px 0;
 }

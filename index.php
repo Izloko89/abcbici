@@ -1,7 +1,27 @@
 <?php include ('header.php');?>
-	<div id="imgIndex">
-		<img src="imagenes/imgindex.png" alt="img" width="100%" height="550" />
-	</div>
+	<div id="slide">
+<?php
+$r = mysql_query("SELECT imagen,liga,target FROM slider_imagenes");
+if (mysql_num_rows($r) > 0)
+{
+?>
+    	<div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+<?php
+	while ($reg = mysql_fetch_array($r))
+	{
+		if ($reg['liga'] <> '') { echo '<a href="'.$reg['liga'].'" target="'.$reg['target'].'">'; }
+		echo '<img src="imagenes/slider/'.$reg['imagen'].'" alt="Goray" />';
+		if ($reg['liga'] <> '') { echo '</a>'; }
+	}
+?>
+            </div>
+        </div>
+<?php
+}
+?>
+    </div>
+    <div class="clear"></div>
 	<div id="servi">
 		<div class="cuadr">
 			<div class="circ">
@@ -57,7 +77,7 @@ if (mysql_num_rows($r) > 0)
 	while ($reg = mysql_fetch_array($r))
 	{
 		if ($reg['liga'] <> '') { echo '<a href="'.$reg['liga'].'" target="'.$reg['target'].'">'; }
-		echo '<img src="imagenes/slider/'.$reg['imagen'].'" alt="Goray" width="725" height="358" />';
+		echo '<img src="imagenes/slider/'.$reg['imagen'].'" />';
 		if ($reg['liga'] <> '') { echo '</a>'; }
 	}
 ?>

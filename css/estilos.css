@@ -187,9 +187,8 @@ small
 }
 #slide
 {
-	width:725px;
-	float:left;
-	margin-top:5px;
+	width:auto;
+	margin: 0 auto;
 }
 .main
 {
@@ -209,6 +208,7 @@ small
 #facebookFooter
 {
 	width:33px;
+	height: 500px;
 	float:right;
     margin:-5px 0 0 0;
 }
