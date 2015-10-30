@@ -1,13 +1,9 @@
 /****** DEFINICION DE FUENTES ******/
 @font-face
 {
-	font-family:Agenda;
-	src:url('Agenda.eot');
-}
-@font-face
-{
-	font-family:Agenda;
-	src:url('Agenda.ttf');
+	font-family:"Agenda";
+	src:url('Agenda-Medium_0.ttf') format(truetype),
+	    url('ufonts.com_agenda-bold.ttf') format(truetype);
 }
 /****** DEFINICION DE FUENTES ******/
 
@@ -113,7 +109,6 @@ small
 	border:1px #dedede solid;
 	position:relative;
 	margin-left:6px;
-	margin-top: 1px;
 }
 
 #aCarrito{
@@ -240,7 +235,6 @@ small
 	height:29px;
 	float:left;
 	border:1px #dedede solid;
-	margin-top: 2px;
 	margin-left: -1px;
 	background:url(../imagenes/search.png);
 }
@@ -870,4 +864,79 @@ li.payPal
 	padding:0;
 	margin:20px auto;
 	background:url(../imagenes/casilla.jpg) center center no-repeat;
+}
+
+#imgIndex{
+	height: 550px;
+}
+
+#servi{
+	margin: 50px 0 20px 0;
+}
+.cuadr{
+	float: left;
+	width: 160px;
+	text-align: center;
+	margin-left: 120px;
+	font-size: 16px;
+	font-family: "Agenda";
+}
+.circ{
+	width: 130px;
+	height: 130px;
+	margin: 0 auto;
+}
+.barra{
+	float: left;
+	background-color: #FC181F;
+	padding: 15px 0 15px 80px;
+	color: #fff;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	width: 190px;
+}
+#flecha {
+	float: left;
+    width:0px;
+    height:0px;
+    border-style: solid;
+    border-width: 52px;
+    border-bottom-width:0px;
+    border-color: transparent transparent transparent #FC181F;
+}
+#arti{
+	float: right;
+	margin-right: 80px;
+}
+#arti ul
+{
+	margin:0;
+	padding:0;
+	list-style:none;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+}
+#arti ul li
+{
+	float:left;
+}
+#arti a
+{
+	display:block;
+	color:#161616;
+	text-transform:uppercase;
+	text-decoration:none;
+	padding:13px 15px;
+}
+#arti p
+{
+	display:block;
+	color:#dedede;
+	text-decoration:none;
+}
+#arti a:hover
+{
+	color:#FC181F;
+	cursor: pointer;
 }

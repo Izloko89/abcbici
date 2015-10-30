@@ -1,6 +1,51 @@
 <?php include ('header.php');?>
+	<div id="imgIndex">
+		<img src="imagenes/imgindex.png" alt="img" width="100%" height="550" />
+	</div>
+	<div id="servi">
+		<div class="cuadr">
+			<div class="circ">
+				<img src="imagenes/servi1.png" width="130" height="130" alt="1">
+			</div>
+			<p><strong>TODO TIPO DE BICICLETAS</strong><br>Contamos con un gran stock de todo tipo de Bicicletas.</p>
+		</div>
+		<div class="cuadr">
+			<div class="circ">
+				<img src="imagenes/calidad.png" width="130" height="130" alt="1">
+			</div>
+			<p><strong>SERVICIO DE CALIDAD</strong><br>Contamos con un gran stock de todo tipo de Bicicletas.</p>
+		</div>
+		<div class="cuadr">
+			<div class="circ">
+				<img src="imagenes/compra.png" width="130" height="130" alt="1">
+			</div>
+			<p><strong>COMPRA 100% SEGURA</strong><br>Contamos con un gran stock de todo tipo de Bicicletas.</p>
+		</div>
+		<div class="cuadr">
+			<div class="circ">
+				<img src="imagenes/envi.png" width="130" height="130" alt="1">
+			</div>
+			<p><strong>ENVIOS A TODO MÉXICO</strong><br>Contamos con un gran stock de todo tipo de Bicicletas.</p>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div id="elementos">
+		<div class="barra">LOS MÁS VISTOS</div>
+	</div>
+	<div id="flecha"></div>
+	<div id="arti">
+		<ul>
+			<li><a>On-Road</a></li>
+			<li><p>&#8226;</p></li>
+			<li><a>X.Road</a></li>
+			<li><p>&#8226;</p></li>
+			<li><a>Off-Road</a></li>
+			<li><p>&#8226;</p></li>
+			<li><a>BMX</a></li>
+		</ul>
+	</div>
 <div class="main">
-	<div id="slide">
+	<!--<div id="slide">
 <?php
 $r = mysql_query("SELECT imagen,liga,target FROM slider_imagenes");
 if (mysql_num_rows($r) > 0)
@@ -21,8 +66,8 @@ if (mysql_num_rows($r) > 0)
 <?php
 }
 ?>
-    </div>
-    <div id="promocion">
+    </div>-->
+    <!--<div id="promocion">
     	<h1>Promociones</h1>
 <?php
 $r = mysql_query("SELECT imagen FROM promociones WHERE vigencia >= '".date('Y-m-d')."' ORDER BY id DESC LIMIT 1");
@@ -37,7 +82,7 @@ else
 	echo '&nbsp;';
 }
 ?>
-    </div>
+    </div>-->
     <div class="clear"></div>
 <?php
 $r = mysql_query("SELECT id,nombre,modelo,precio".$_SESSION['cteTVAnetTIPO']." AS precio,imagen FROM productos WHERE visitas > 0 ORDER BY visitas DESC LIMIT 4");
