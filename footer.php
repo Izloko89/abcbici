@@ -1,5 +1,12 @@
-<div class="main">
-	<div id="footer"><div id="facebookFooter"><a href="https://www.facebook.com/abcbici" title="facebook" target="_blank"><img src="imagenes/face-foot.png" alt="facebook" width="24" height="24" border="0" /></a></div>© <strong>ABCBICI.COM</strong>. Escobedo 804, Col. Centro, Monterrey, Nuevo León, México, CP. 64000  (81) 8372.0199 y 01800.58.10.691<div class="clear"></div></div>
+<div class="footer1">
+	<div class="foottext">&#169;2015 ABC BICI - TODOS LOS DERECHOS RESERVADOS.</div>
+	<div class="footercard">
+		<div class="card"><img src="imagenes/paypal.png" width="60" height="30" /></div>
+		<div class="card"><img src="imagenes/visa.png" width="60" height="30" /></div>
+		<div class="card"><img src="imagenes/discover.png" width="60" height="30" /></div>
+		<div class="card"><img src="imagenes/mastercard.png" width="60" height="30" /></div>
+	</div>
+	<div class="clear"></div>
     <div id="firma"><a href="http://www.americanet.mx/diseno-paginas-web-monterrey-mexico.html" target="_blank">Proveedor Página Web</a></div>
 </div>
 <?php

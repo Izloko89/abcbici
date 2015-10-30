@@ -1,9 +1,13 @@
 /****** DEFINICION DE FUENTES ******/
 @font-face
 {
-	font-family:"Agenda";
-	src:url('Agenda-Medium_0.ttf') format(truetype),
-	    url('ufonts.com_agenda-bold.ttf') format(truetype);
+	font-family:Agenda;
+	src:url('Agenda.eot');
+}
+@font-face
+{
+	font-family:Agenda;
+	src:url('Agenda.ttf');
 }
 /****** DEFINICION DE FUENTES ******/
 
@@ -112,13 +116,13 @@ small
 }
 
 #aCarrito{
-	background: url(../imagenes/carrito.png) no-repeat;
+	background: url(../imagenes/icono-carrito.png) no-repeat;
 }
 #aTwitter{
-	background: url(../imagenes/twiter.png) no-repeat;
+	background: url(../imagenes/icono-twitter.png) no-repeat;
 }
 #aFacebook{
-	background: url(../imagenes/facebook.png) no-repeat;
+	background: url(../imagenes/icono-facebook.png) no-repeat;
 }
 #datosHeader
 {
@@ -148,6 +152,7 @@ small
 	text-align:center;
 	background:url(../imagenes/bg-pro.png) no-repeat bottom;
 	height:65px;
+	margin-top:20px;
 }
 #divCarrito p
 {
@@ -208,7 +213,6 @@ small
 #facebookFooter
 {
 	width:33px;
-	height: 500px;
 	float:right;
     margin:-5px 0 0 0;
 }
@@ -236,9 +240,8 @@ small
 	float:left;
 	border:1px #dedede solid;
 	margin-left: -1px;
-	background:url(../imagenes/search.png);
+	background:url(../imagenes/icono-buscar.png);
 }
-
 .clear
 {
 	clear:both;
@@ -277,6 +280,8 @@ small
 	font-family:Verdana, Geneva, sans-serif;
 	font-size:12px;
 	margin-bottom:5px;
+	text-align: center;
+	line-height: 20pt;
 }
 .btnAgregar
 {
@@ -866,10 +871,6 @@ li.payPal
 	background:url(../imagenes/casilla.jpg) center center no-repeat;
 }
 
-#imgIndex{
-	height: 550px;
-}
-
 #servi{
 	margin: 50px 0 20px 0;
 }
@@ -895,6 +896,16 @@ li.payPal
 	font-size:18px;
 	font-weight:bold;
 	width: 190px;
+}
+.barra2{
+	float: left;
+	background-color: #FC181F;
+	padding: 15px 0 15px 80px;
+	color: #fff;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	width: 320px;
 }
 #flecha {
 	float: left;
@@ -939,4 +950,129 @@ li.payPal
 {
 	color:#FC181F;
 	cursor: pointer;
+}
+
+.produ
+{
+	margin: 20px 30px;
+	background: #FFF;
+	padding:6px;
+	width:340px;
+	float:left;
+}
+.produImagen
+{
+	margin-bottom:5px;
+	text-align:center;
+	height: 160px;
+}
+.Pre{
+	color: red;
+}
+
+.Accesorios
+{
+	margin: 20px 40px;
+	background: #FFF;
+	padding:6px;
+	width:220px;
+	float:left;
+}
+.accImagen
+{
+	margin-bottom:5px;
+	text-align:center;
+	height: 160px;
+}
+
+.vermas{
+	width: 1000px;
+	background: url(../imagenes/banerbajo-01.png);
+	margin: 0 auto;
+}
+
+.cuadrver{
+	width: 100px;
+	margin: 0 auto;
+}
+
+#vide{
+	width: 100%;
+	height: 400px;
+	background: url(../imagenes/fondiu.png) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.repro{
+	margin: 29px 72px 0 0;
+	float: right;
+}
+.slide{
+	width: 170px !important;
+	border: 1px solid #dedede;
+	margin-left: 60px;
+	background-color: #fff;
+}
+.fondoloko{
+	height: 110px;
+	width: 100%;
+	padding-top: 20px;
+	background: url(../imagenes/fondoloko.png);
+}
+#map{
+	width: 100%;
+	height: 410px;
+}
+.apps{
+	background: #C3C3C3;
+	height: 130px;
+	width: 100%;
+}
+
+.txxt{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	width: 520px;
+	margin-top: 25px;
+	padding: 25px 0;
+	float: left;
+	text-align: center;
+}
+
+.dispo{
+	float: left;
+}
+.dispo img {
+	margin: 15px 50px 0 0;
+}
+.footer1{
+	background: #2A2A2A;
+	height: 110px;
+	width: 100%;
+	padding-top: 5px;
+}
+.foottext{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	width: 520px;
+	margin-top: 25px;
+	padding: 15px 0;
+	float: left;
+	color: #fff;
+	text-align: center;
+}
+.footercard{
+	float: right;
+	margin-right: 30px;
+	margin-top: 35px;
+}
+.card{
+	float: left;
+	width: 60px;
+	height: 30px;
+	margin-right: 5px;
 }
