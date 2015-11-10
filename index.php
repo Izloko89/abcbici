@@ -53,7 +53,7 @@
 			<div class="barra">LOS MÁS VISTOS</div>
 		</div>
 		<div id="flecha"></div>
-		<div id="arti">
+		<!--<div id="arti">
 			<ul>
 				<li><a href="#">On-Road</a></li>
 				<li><p>&#8226;</p></li>
@@ -63,7 +63,7 @@
 				<li><p>&#8226;</p></li>
 				<li><a href="#">BMX</a></li>
 			</ul>
-		</div>
+		</div>-->
 		<div class="clear"></div>
 		<?php
 		$r = mysql_query("SELECT id,nombre,modelo,precio".$_SESSION['cteTVAnetTIPO']." AS precio,imagen FROM productos WHERE visitas > 0 ORDER BY visitas DESC LIMIT 3");
@@ -83,9 +83,9 @@
 		?>
 		<div class="produ">
 			<div class="produImagen"><img src="imagenes/productos/<?php echo $imagen?>" <?php echo $size?> border="0" align="absmiddle" /></div>
-			<div class="divDatosDetalle"><?php echo $reg['nombre']?></div>
+			<div class="divDatosDetalle2"><?php echo $reg['nombre']?></div>
 			<!--<div class="produLabel">Modelo:</div><div class="divDatosDetalle"><?php echo $reg['modelo']?></div>-->
-        	<div class="divDatosDetalle Pre"><?php echo Moneda($reg['precio']).' + I.V.A'?></div>
+        	<div class="divDatosDetalle2 Pre"><?php echo Moneda($reg['precio']).' + I.V.A'?></div>
 			<!--<div class="btnAgregar"><a href="addToCart.php?ID=<?php echo $reg['id']?>" title="Agregar al Carrito"><img src="imagenes/btn-agregar.png" alt="Agregar al Carrito" name="ag1" width="87" height="33" border="0" id="ag1" onmouseover="MM_swapImage('ag1','','imagenes/btn-agregar2.png',1)" onmouseout="MM_swapImgRestore()" /></a></div>
 			<div class="btnVerMas"><a href="detalle.php?ID=<?php echo $reg['id']?>" title="Ver Más"><img src="imagenes/btn-vermas.png" alt="Ver Más" name="ver1" width="77" height="25" border="0" id="ver1" onmouseover="MM_swapImage('ver1','','imagenes/btn-vermas2.png',1)" onmouseout="MM_swapImgRestore()" /></a></div>-->
 		</div>
@@ -100,7 +100,7 @@
 			<div class="barra2">ACCESORIOS Y REFACCIONES</div>
 		</div>
 		<div id="flecha"></div>
-		<div id="arti">
+		<!--<div id="arti">
 			<ul>
 				<li><a href="#">Cuadros</a></li>
 				<li><p>&#8226;</p></li>
@@ -112,7 +112,7 @@
 				<li><p></p></li>
 				<li><a href="#">Ver Todos</a></li>
 			</ul>
-		</div>
+		</div> -->
 		<div class="clear"></div>
 		<?php
 		$r = mysql_query("SELECT id,nombre,modelo,precio".$_SESSION['cteTVAnetTIPO']." AS precio,imagen FROM productos WHERE visitas > 0 ORDER BY visitas DESC LIMIT 8");
@@ -132,9 +132,9 @@
 		?>
 		<div class="Accesorios">
 			<div class="accImagen"><img src="imagenes/productos/<?php echo $imagen?>" <?php echo $size?> border="0" align="absmiddle" /></div>
-			<div class="divDatosDetalle"><?php echo $reg['nombre']?></div>
+			<div class="divDatosDetalle2"><?php echo $reg['nombre']?></div>
 			<!--<div class="accLabel">Modelo:</div><div class="divDatosDetalle"><?php echo $reg['modelo']?></div>-->
-        	<div class="divDatosDetalle Pre"><?php echo Moneda($reg['precio']).' + I.V.A'?></div>
+        	<div class="divDatosDetalle2 Pre"><?php echo Moneda($reg['precio']).' + I.V.A'?></div>
 			<!--<div class="btnAgregar"><a href="addToCart.php?ID=<?php echo $reg['id']?>" title="Agregar al Carrito"><img src="imagenes/btn-agregar.png" alt="Agregar al Carrito" name="ag1" width="87" height="33" border="0" id="ag1" onmouseover="MM_swapImage('ag1','','imagenes/btn-agregar2.png',1)" onmouseout="MM_swapImgRestore()" /></a></div>
 			<div class="btnVerMas"><a href="detalle.php?ID=<?php echo $reg['id']?>" title="Ver Más"><img src="imagenes/btn-vermas.png" alt="Ver Más" name="ver1" width="77" height="25" border="0" id="ver1" onmouseover="MM_swapImage('ver1','','imagenes/btn-vermas2.png',1)" onmouseout="MM_swapImgRestore()" /></a></div>-->
 		</div>

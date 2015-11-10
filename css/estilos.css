@@ -280,6 +280,14 @@ small
 	font-family:Verdana, Geneva, sans-serif;
 	font-size:12px;
 	margin-bottom:5px;
+	text-align: left;
+	line-height: 10pt;
+}
+.divDatosDetalle2
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	margin-bottom:5px;
 	text-align: center;
 	line-height: 20pt;
 }
