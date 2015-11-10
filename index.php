@@ -82,7 +82,7 @@
 			if ($ancho > $alto) { $size =  'width="200"'; }
 		?>
 		<div class="produ">
-			<div class="produImagen"><img src="imagenes/productos/<?php echo $imagen?>" <?php echo $size?> border="0" align="absmiddle" /></div>
+			<div class="produImagen"><a href="detalle.php?ID=<?php echo $reg['id']?>" title="Ver Más"><img src="imagenes/productos/<?php echo $imagen?>" <?php echo $size?> border="0" align="absmiddle" /></a></div>
 			<div class="divDatosDetalle2"><?php echo $reg['nombre']?></div>
 			<!--<div class="produLabel">Modelo:</div><div class="divDatosDetalle"><?php echo $reg['modelo']?></div>-->
         	<div class="divDatosDetalle2 Pre"><?php echo Moneda($reg['precio']).' + I.V.A'?></div>
@@ -131,7 +131,7 @@
 			if ($ancho > $alto) { $size =  'width="200"'; }
 		?>
 		<div class="Accesorios">
-			<div class="accImagen"><img src="imagenes/productos/<?php echo $imagen?>" <?php echo $size?> border="0" align="absmiddle" /></div>
+			<div class="accImagen"><a href="detalle.php?ID=<?php echo $reg['id']?>" title="Ver Más"><img src="imagenes/productos/<?php echo $imagen?>" <?php echo $size?> border="0" align="absmiddle" /></a></div>
 			<div class="divDatosDetalle2"><?php echo $reg['nombre']?></div>
 			<!--<div class="accLabel">Modelo:</div><div class="divDatosDetalle"><?php echo $reg['modelo']?></div>-->
         	<div class="divDatosDetalle2 Pre"><?php echo Moneda($reg['precio']).' + I.V.A'?></div>
