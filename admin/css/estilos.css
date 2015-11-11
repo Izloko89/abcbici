@@ -1,0 +1,187 @@
+BODY
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin:0;
+}
+A
+{
+	color:#333333;
+}
+A:HOVER
+{
+	color:#000000;
+}
+#menu
+{
+	background-color:#3A468E;
+	height:25px;
+}
+#navi
+{  
+	list-style:none;
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#navi li
+{
+	padding:2px;
+	float:left;
+}
+#navi li a
+{
+	display:block;
+	width:110px;
+	padding:4px 0;
+	text-decoration:none;
+	text-align:center;
+	font-size:12px;
+	color:#cccccc;
+	background-color:#3A468E;
+}
+#navi li a:hover
+{
+	color:#ffffff;
+	background-color:#6473cb;
+}
+.login1
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-align:center;
+	background-color:#3A468E;
+	padding:5px;
+}
+.login2
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-color:#C1C7E6;
+	padding:5px;
+}
+.copyright
+{
+	text-align:center;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#bea891;
+}
+.firma
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+}
+.forma
+{
+	border-top:1px #dddddd solid;
+}
+.forma td
+{
+	border-bottom:1px #dddddd solid;
+	padding:6px;
+}
+.forma label
+{
+	font-style:italic;
+	font-weight:bold;
+	margin:3px 0;
+}
+.forma INPUT[type="text"], .forma TEXTAREA
+{
+	width:100%;
+}
+.tabla
+{
+	border-top:1px #dddddd solid;
+	border-right:1px #dddddd solid;
+}
+.tabla td
+{
+	border-left:1px #dddddd solid;
+	border-bottom:1px #dddddd solid;
+	padding:8px;
+}
+.fila:hover
+{
+	background:#e7efef;
+}
+.encabezado
+{
+	background:#efefef;
+	font-weight:bold;
+}
+.imagenMedia
+{
+	width:150px;
+	min-height:200px;
+	float:left;
+	padding:10px;
+	margin:20px;
+	text-align:center;
+	border:1px #dddddd solid;
+}
+.imagenMedia:hover
+{
+	background:#e7efef;
+}
+.imagenMedia small
+{
+	font-size:12px;
+	font-weight:bold;
+	margin:3px 0;
+}
+.errorMsg
+{
+	border:2px #000 solid;
+	width:70%;
+	margin:25px auto;
+	padding:10px;
+	text-align:center;
+	background:url(../imagenes/errorIcon.png) no-repeat 20px 5px #f36b6b;
+}
+.alertaMsg
+{
+	border:2px #000 solid;
+	width:70%;
+	margin:25px auto;
+	padding:10px;
+	text-align:center;
+	background:url(../imagenes/alertaIcon.png) no-repeat 20px 5px #efde70;
+}
+.subiendoMsg
+{
+	border:2px #03378e solid;
+	width:70%;
+	margin:25px auto;
+	padding:5px;
+	text-align:center;
+	background:url(../imagenes/subirIcon.png) no-repeat 20px 5px #abc5f0;
+	display:none;
+}
+.clear
+{
+	clear:both;
+}
+.listaPR
+{
+	list-style:none;
+	margin:0;
+	padding:0;
+	border-top:1px #666666 dashed;
+}
+.listaPR li
+{
+	padding:8px 0;
+	border-bottom:1px #666666 dashed;
+}
+.listaPR li div
+{
+	width:140px;
+	float:right;
+	text-align:right;
+}
