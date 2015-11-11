@@ -10,7 +10,8 @@ $db_bd = @mysql_select_db($db_db,$db_conn) or die ('Imposible comunicarse con la
 
 //define('RUTA','http://www.bicicletasrefacciones.com/');
 //define('RUTA','http://www.abcbici.com/');
-define('RUTA','http://desarrolloclientes.com/abcbici/');
+define('RUTA','http://localhost/abcbici/');
+//define('RUTA','http://desarrolloclientes.com/abcbici/');
 
 $arrEMails = array('ventas@bicicletasrefacciones.com');
 //$arrEMails = array('pruebas@bicicletasrefacciones.com');

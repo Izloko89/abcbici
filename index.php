@@ -115,7 +115,7 @@
 		</div> -->
 		<div class="clear"></div>
 		<?php
-		$r = mysql_query("SELECT id,nombre,modelo,precio".$_SESSION['cteTVAnetTIPO']." AS precio,imagen FROM productos WHERE visitas > 0 ORDER BY visitas DESC LIMIT 8");
+		$r = mysql_query("SELECT id,nombre,modelo,precio".$_SESSION['cteTVAnetTIPO']." AS precio,imagen FROM productos WHERE categoriaID = 2 ORDER BY nombre LIMIT 8");
 		if (mysql_num_rows($r) > 0)
 		{
 		?>
