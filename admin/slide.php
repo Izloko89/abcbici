@@ -10,7 +10,7 @@ if (!isset($_GET['mod']))
       <td>Agregar Imagen</td>
     </tr>
     <tr>
-      <td><label>Imagen <small>(JPG, GIF o PNG. 725px Ancho X 358px Alto)</small></label><input name="archivo" type="file" id="archivo" size="70" /></td>
+      <td><label>Imagen <small>(JPG, GIF o PNG. 310px Ancho X 155px Alto)</small></label><input name="archivo" type="file" id="archivo" size="70" /></td>
     </tr>
     <tr>
       <td><label>Liga</label>
