@@ -110,12 +110,14 @@ hs.wrapperClassName = 'dark';
 if (isset($_SESSION['cteTVAnetID']) and isset($_SESSION['sessionCteTVAnetID']))
 {
 ?>
+                <div id="navcue">
                 <ul>
                     <li class="datos">En Linea<br /><span><?php echo $_SESSION['cteTVAnetNOMBRE']?></span></li>
-                    <li><a href="">Mi<br />Cuenta</a></li>
+                    <li><a href="">Mi Cuenta</a></li>
                     <li><a href="pedidos.php">Mis Pedidos</a></li>
                     <li><a href="logout.php">Cerrar Sesion</a></li>
                 </ul>
+                </div>
 <?php
 }
 else
